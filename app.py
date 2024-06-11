@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 from langchain_community.llms import CTransformers
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "" ## Enter your own API Key
 
 def generate_blog(input_text, word_count, audience_type):
     model_path = 'TheBloke/Llama-2-7B-Chat-GGML'
